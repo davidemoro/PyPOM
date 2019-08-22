@@ -225,8 +225,8 @@ write locators for your driver:
 
 .. literalinclude:: examples/repeated_regions.py
    :language: python
-   :emphasize-lines: 6-6
-   :lines: 5-22
+   :emphasize-lines: 6-8
+   :lines: 5-24
 
 Nested regions
 ~~~~~~~~~~~~~~
@@ -243,7 +243,7 @@ to pass ``self.page`` when instantiating nested regions:
 
 .. literalinclude:: examples/nested_regions.py
    :language: python
-   :emphasize-lines: 5-6,10-11,18-18
+   :emphasize-lines: 4-5,9-10,16-18
    :lines: 5-30
 
 
@@ -392,9 +392,9 @@ inherited by a base project page class.
 .. note::
 
   The default timeout of 10 seconds may be considered excessive, and you may
-  wish to reduce it. It it not recommended to increase the timeout however. If
-  you have interactions that take longer than the default you may find that you
-  have a performance issue that will considerably affect the user experience.
+  wish to reduce it. Increasing the timeout is not recommended. If you have
+  interactions that take longer than the default you may find that you have
+  a performance issue that will considerably affect the user experience.
 
 .. _Selenium: http://docs.seleniumhq.org/
 .. _Splinter: https://github.com/cobrateam/splinter
